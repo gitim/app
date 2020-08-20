@@ -1,0 +1,22 @@
+.tableContainer {
+  flex: 1;
+  position: relative;
+}
+
+.table {
+  position: relative;
+
+}
+
+.checkboxAll {
+  margin-left: 0 !important;
+}
+
+.progress {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}

@@ -1,0 +1,16 @@
+.main {
+  height: calc(100vh - 56px - 16px); /* - footerHeight - marginTop */
+  margin-top: 16px;
+}
+
+@media (min-width: 0px) and (orientation: landscape) {
+  .main {
+    height: calc(100vh - 48px - 16px);
+  }
+}
+
+@media (min-width: 600px) {
+  .main {
+    height: calc(100vh - 64px - 16px);
+  }
+}

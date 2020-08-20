@@ -1,0 +1,14 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  box-sizing: border-box;
+  max-height: 76px;
+  padding: 16px;
+  text-align: left;
+  line-height: 28px;
+  overflow: auto;
+}
